@@ -1,0 +1,15 @@
+public class MySampleApex {
+    
+    // Property to store a name
+    public String name { get; set; }
+
+    // Constructor to initialize the name
+    public BasicApexClass(String initialName) {
+        name = initialName;
+    }
+
+    // Method to greet using the name
+    public String greet() {
+        return 'Hello, ' + name + '!';
+    }
+}
